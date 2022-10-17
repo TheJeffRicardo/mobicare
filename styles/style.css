@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header {
+    display: inline-flex;
+    min-width: 100%;
+    min-height: 88px;
+    background-color: grey;
+}
+.logo {
+    width: 18.8em;
+    height: 79.5px;
+    margin: 5px 0px 0px 3px;
+    background-color: white;
+}
+.menu {
+    margin-left: 200px;
+    align-self: center;
+}
+.menu-list {
+    display: inline-flex;
+    list-style: none;
+}
+.menu-list li {
+    padding: 0px 40px;
+    color: white;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.menu-list li:hover {
+    color: green;
+    transition: 0.2s;
+    cursor: pointer;
+}
+/* .banner {
+    min-width: 100vw;
+    min-height: 100%;
+} */
